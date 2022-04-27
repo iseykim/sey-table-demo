@@ -1,0 +1,10 @@
+node_modules
+
+*logs*/**
+*debug*/**
+*build*/**
+
+*.tsbuildinfo
+*.env.*
+
+server/dist

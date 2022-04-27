@@ -1,0 +1,15 @@
+{
+  "name": "table-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "concurrently \"cd ./server && npm run dev\" \"cd ./client && npm run dev\""
+  },
+  "keywords": [],
+  "author": "Sey Kim",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}

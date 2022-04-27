@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Overwrite Tailwind's preflight styles */
+@layer base {
+  button {
+    @apply border p-2;
+  }
+
+  button:disabled {
+    @apply bg-gray-300 text-gray-400;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply border p-2;
+  }
+}
+
+/* For Ladle's Story components */
+.Wrapper p {
+  @apply bg-gray-200 text-center border p-4;
+}
