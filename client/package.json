@@ -2,19 +2,14 @@
   "name": "sey-demo-client",
   "private": true,
   "version": "1.0.0",
-  "description": "TypeScript, React-Table, Ladle",
   "scripts": {
     "build": "tsc && vite build",
-    "coverage": "vitest run --coverage",
     "dev": "vite",
     "preview": "vite preview",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
     "ladle": "ladle serve --port 4123",
     "ladle:build": "ladle build"
   },
   "dependencies": {
-    "@apollo/client": "^3.5.10",
     "@ladle/react": "^0.11.0",
     "autoprefixer": "^10.4.4",
     "axios": "^0.27.2",

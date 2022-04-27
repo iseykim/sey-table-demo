@@ -2,7 +2,6 @@
   "name": "sey-demo-express",
   "private": true,
   "version": "1.0.0",
-  "description": "TypeScript, Express API Server",
   "scripts": {
     "start": "npm run build && cross-env NODE_ENV=production node dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon",
